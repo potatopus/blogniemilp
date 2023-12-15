@@ -1,0 +1,197 @@
+.body {
+    background-color: #caf0f8a1;
+    margin: 0;
+}
+
+.entries, .container {
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.title {
+    color: whitesmoke;
+    background-color: #0076b650;
+    border-bottom: solid 1px #0076b650;
+}
+
+.content {
+    background-color: whitesmoke;
+    color: #0A1128;
+    font-size: large;
+    font-family: Sans-serif;
+    border-left: solid 1px #0076b650;
+    border-right: solid 1px #0076b650;
+    margin: 0;
+}
+
+body a {
+    margin: 0;
+    text-decoration: none;
+    color: #0A1128;
+    display: block;
+    height: 100%;
+}
+
+.bottom {
+    border-top: solid 1px #0076b650;
+    background-color: #0076b650;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 25px;
+    position: relative;
+}
+
+.react {
+    position: absolute;
+    left: 20px;
+    top: 8px;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.published {
+    position: absolute;
+    right: 20px;
+    bottom: 0cqmin;
+}
+
+nav {
+    height: 60px;
+    background-color: #caf0f8;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 25%);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+nav .container-fluid {
+    margin: 0;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 40px;
+}
+
+nav .navbar-brand {
+    align-items: center;
+    letter-spacing: 6px;
+    font-weight: 600;
+}
+
+nav .navbar-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 2px;
+}
+
+nav .navbar-collapse a {
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 15px;
+    transition: all .3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav .navbar-collapse a:hover {
+    color: azure;
+    background-color: rgba(0, 0, 0, 50%);
+    border-bottom: 3px solid rgb(169, 255, 255);
+}
+
+.navbar .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar .toggle-btn .bar {
+    width: 25px;
+    height: 3px;
+    margin: 7px 0 7px 0;
+    transition: all .3s ease-in-out;
+    background-color: lightslategray;
+    border-radius: 5px;
+}
+
+.navbar .toggle-btn .bar:nth-child(2) {
+    width: 28px;
+}
+
+.navbar #toggle-menu {
+    display: none;
+}
+
+/* Offcanvas*/
+.offcanvas {
+    background-color: #caf0f8;
+    width: 200px !important;
+    align-items: end;
+}
+
+.offcanvas .offcanvas-header button {
+    width: 40px;
+    height: 40px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.offcanvas-body {
+    margin-right: 0;
+}
+
+.offcanvas .offcanvas-body a {
+    height: 50px;
+    text-align: end;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    border: 1px solid black;
+    border-top: 0;
+}
+
+.offcanvas .offcanvas-body i {
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+/*Offcanvas End*/
+
+.card {
+    width: 346px;
+    display: flex;
+    margin: 5px;
+    background: #caf0f8 !important;
+}
+
+.card p {
+    font-weight: 500;
+    font-size: larger;
+}
+
+.card img {
+    width: 97%;
+    margin: 5px;
+    object-fit: cover;
+}
+
+img {
+    width: 340px;
+    margin: 5px;
+}

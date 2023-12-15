@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blogCSS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="blogJS.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="logoTransparent.png" type="image/x-icon">
+    <title>Blog ni Emil</title>
+</head>
+
+<body class="body">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm position-fixed container-fluid top-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home"><img src="logoTransparent.png" alt="Blog ni Emil"
+                    style="width: 100px;"></a>
+            <button class="navbar-toggler d-flex d-sm-none order-3 p-2" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation">
+                <label for="toggle-menu" type="button" class="toggle-btn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </label>
+            </button>
+            <div class="collapse navbar-collapse">
+                <a class="nav-link active" aria-current="page" href="#blog">Blogs</a>
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Offcanvas-->
+    <div class="offcanvas offcanvas-end bg-info" tabindex="-1" id="bdNavbar" aria-labelledby="offcanvas">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mt-2">
+                <a class="nav-link active" aria-current="page" href="#blog"><i class="fas fa-feather"></i>Blogs</a>
+                <a class="nav-link active" aria-current="page" href="#about"><i class="fas fa-info"></i>About</a>
+            </div>
+        </div>
+    </div>
+
+    <!--BLOGS-->
+    <div class="container-fluid" id="blog" style="padding-top: 60px;">
+        <div class="row">
+            <div class="col col-lg-2 d-none d-lg-block">
+            </div>
+
+            <!--ENTRIES-->
+            <div class="col col-lg-6">
+
+                <!--ENTRY 6-->
+                <div class="container-fluid entries" style="border-bottom: solid 1px #034078; padding-bottom: 20px">
+                    <a href="Parola.html" style="position: relative; border: 1px solid #0076b6;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md title" style="background-image: url(Parola.jpeg); background-size: cover;
+                                background-position-y: 70%;">
+                                    <h2 style="backdrop-filter: blur(1px);">Parola Seaview Restaurant</h2>
+                                </div>
+                                <div class="col-md content">
+                                    Enjoy Some Authentic Filipino Foods while enjoying the Paromatic Seaview
+                                    at Parola Seaview Restaurant.
+                                </div>
+                            </div>
+                        </div>
+                        <img src="open.png" alt="open"
+                            style="position: absolute; right: 10px; bottom: 10px; width: 20px;">
+                    </a>
+                    <div class="bottom"><!--
+                        <div class="react">
+                            <button onclick="like4()">
+                                <img id="like3" src="like.png" style="width: 30px;" alt="Like">
+                            </button>
+                        </div>-->
+                        <div class="published">
+                            <p>December 10, 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--ENTRY 5-->
+                <div class="container-fluid entries" style="border-bottom: solid 1px #034078; padding-bottom: 20px">
+                    <a href="Bantayan.html" style="position: relative; border: 1px solid #0076b6;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md title" style="background-image: url(Bantayan.jpg); background-size: cover;
+                                background-position-y: 70%;">
+                                    <h2
+                                        style="backdrop-filter: blur(1px); background-color: rgba(128, 128, 128, 0.199);">
+                                        A Budget Friendly Outing for Friends and Family at Bantayan, Cordova.
+                                    </h2>
+                                </div>
+                                <div class="col-md content">
+                                    Want to go to the beach? No or low on budget? Then let's go and have fun at
+                                    Bantayan, Cordova.
+                                </div>
+                            </div>
+                        </div>
+                        <img src="open.png" alt="open"
+                            style="position: absolute; right: 10px; bottom: 10px; width: 20px;">
+                    </a>
+                    <div class="bottom"><!--
+                        <div class="react">
+                            <button onclick="like4()">
+                                <img id="like3" src="like.png" style="width: 30px;" alt="Like">
+                            </button>
+                        </div>-->
+                        <div class="published">
+                            <p>December 10, 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ENTRY 4-->
+                <div class="container-fluid entries" style="border-bottom: solid 1px #034078; padding-bottom: 20px">
+                    <a href="CordovaMuseum.html" style="position: relative; border: 1px solid #0076b6;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md title" style="background-image: url(MuseumInterior.jpg); background-size: cover;
+                                background-position-y: 70%;">
+                                    <h2 style="backdrop-filter: blur(1px);">
+                                        Cordova Museum: Glimpse of Cordova's History
+                                    </h2>
+                                </div>
+                                <div class="col-md content">
+                                    Get to know about the origin behind Cordova's name and its barangays.
+                                </div>
+                            </div>
+                        </div>
+                        <img src="open.png" alt="open"
+                            style="position: absolute; right: 10px; bottom: 10px; width: 20px;">
+                    </a>
+                    <div class="bottom"><!--
+                        <div class="react">
+                            <button onclick="like4()">
+                                <img id="like3" src="like.png" style="width: 30px;" alt="Like">
+                            </button>
+                        </div>-->
+                        <div class="published">
+                            <p>December 9, 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ENTRY 3-->
+                <div class="container-fluid entries" style="border-bottom: solid 1px #034078; padding-bottom: 20px">
+                    <a href="CordovaEnvironment.html" style="position: relative; border: 1px solid #0076b6;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md title" style="background-image: url(EnvBackground.jpg); background-size: cover;
+                                background-position-y: 70%;">
+                                    <h2 style="backdrop-filter: blur(1px); background-color: rgba(0, 0, 0, 0.1);">
+                                        A Cleaner and Greener Cordova: Clean-up
+                                    </h2>
+                                </div>
+                                <div class="col-md content">
+                                    Cordova is home to thousands of people and littering has made the enrvironment,
+                                    which is vital
+                                    to our livelihood, deteriorate making it hard for the fishermen in securing food.
+                                </div>
+                            </div>
+                        </div>
+                        <img src="open.png" alt="open"
+                            style="position: absolute; right: 10px; bottom: 10px; width: 20px;">
+                    </a>
+                    <div class="bottom"><!--
+                        <div class="react">
+                            <button onclick="like3()">
+                                <img id="like3" src="like.png" style="width: 30px;" alt="Like">
+                            </button>
+                        </div>-->
+                        <div class="published">
+                            <p>December 7, 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ENTRY 2-->
+                <div class="container-fluid entries" style="border-bottom: solid 1px #034078; padding-bottom: 20px">
+                    <a href="CordovaRoro.html" style="position: relative; border: 1px solid #0076b6;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md title" style="background-image: url(Food\ Stalls.jpg); background-size: cover;
+                                background-position-y: 70%;">
+                                    <h2 style="backdrop-filter: blur(1px);">A Walk Through Cordova Centennial Road /
+                                        Cordova-Roro Port Rd
+                                    </h2>
+                                </div>
+                                <div class="col-md content">
+                                    The Cordova-Roro Port Rd is a place that's good for a walk or jog. This leads to
+                                    a food court where there are a lot of food choices to choose from different
+                                    stalls.
+                                </div>
+                            </div>
+                        </div>
+                        <img src="open.png" alt="open"
+                            style="position: absolute; right: 10px; bottom: 10px; width: 20px;">
+                    </a>
+                    <div class="bottom"> <!--
+                        <div class="react">
+                            <button type="button" onclick="like()">
+                                <img id="like" src="like.png" style="width: 30px;" alt="Like">
+                            </button>
+                        </div> -->
+                        <div class="published">
+                            <p>December 7, 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ENTRY 1-->
+                <div class="container-fluid entries" style="border-bottom: solid 1px #034078; padding-bottom: 20px">
+                    <a href="10kRoses.html" style="position: relative; border: 1px solid #0076b6;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md title" style="background-image: url(10k.jpg); background-size: cover;
+                                background-position-y: 80%;">
+                                    <h2 style="backdrop-filter: blur(1px);">A Beautiful Place to Relax: 10k Roses</h2>
+                                </div>
+                                <div class="col-md content">
+                                    If you're looking for a place to relax near a coast, then
+                                    10k Roses is the place for you.
+                                    A cafe that is in a perfect spot for relaxation and planespotting.
+                                </div>
+                            </div>
+                        </div>
+                        <img src="open.png" alt="open"
+                            style="position: absolute; right: 10px; bottom: 10px; width: 20px;">
+                    </a>
+                    <div class="bottom"> <!--
+                        <div class="react">
+                            <button onclick="like2()">
+                                <img id="like2" src="like.png" style="width: 30px;" alt="Like">
+                            </button>
+                        </div>-->
+                        <div class="published">
+                            <p>December 5, 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col col-lg-4 d-none d-lg-block">
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT-->
+    <div class="container-fluid" style="color: #0A1128;  border-top: solid 1px #034078; background-color: #caf0f8;"
+        id="about">
+        <div class="row">
+            <div class="col col-lg-2 d-none d-lg-block"></div>
+            <div class="col">
+                <img src="logoT.png" alt="Blog ni Emil Logo" style="width: 250px; margin-top: 10px;">
+            </div>
+            <div class="col" style="padding: 20px;">
+                <h4>
+                    Author
+                </h4>
+                This blog site is written and created by <span style="font-weight: bold; font-size: large;">Emil Louise
+                    Igot</span> from BSIT 2D.
+            </div>
+            <div class="col" style="padding: 20px;">
+                <h4>
+                    About
+                </h4>
+                This blog is written for Educational purposes. This is with accordance to our subject 'Living In The IT
+                Era'.
+            </div>
+            <div class="col col-lg-4 d-none d-lg-block"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
